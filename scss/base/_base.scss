@@ -1,8 +1,35 @@
+* {
+    box-sizing: border-box;
+  }
 
 body {
-	font-family: "Open Sans", sans-serif;
+	font-family: $font-text;
+    font-size: 1.6rem;
 	font-optical-sizing: auto;
 
-	background: $c-page-wh;
-	color: $c-text;
+	background: $c-white;
+	color: $c-black;
+}
+a {
+    text-decoration: none;
+}
+
+h2{
+font-family: $font-title;
+font-size: 2.5rem;
+}
+
+.container{
+    max-width: $desktop-size;
+    margin: 0 auto;
+    @include desktop {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+}
+.logo{
+    font-family: $font-title;
+    font-size: 2rem;
+    font-weight: 300;
+    color:$c-primary;
 }

@@ -1,0 +1,15 @@
+{
+  "name": "workshop1",
+  "version": "1.0.0",
+  "description": "Bestshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tereza Kadeckova",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "parcel": "^2.12.0"
+  }
+}

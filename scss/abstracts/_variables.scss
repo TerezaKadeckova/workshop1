@@ -1,20 +1,25 @@
 // colors
-$c-page-wh: #FFFFFF;
-$c-text:    #000000;
-$c-button:  #08A6E4;
-$c-button2: #fb3b64;
-$c-button3: #55dfb4;
-$c-shadows: rgba(7, 172, 230, .16);
-$c-page-gr: #A5A5A5;
-$c-page-gr-2: #F7F7F7;
+$c-white: #FFFFFF;
+$c-black:    #000000;
+$c-primary:  #08A6E4;
+$c-redish: #fb3b64;
+$c-lightgreen: #55dfb4;
+$c-primary-shadows: rgba(7, 172, 230, .16);
+$c-grey: #A5A5A5;
+$c-lightgrey: #F7F7F7;
 
+
+// fonts
+$font-title: 'Raleway', sans-serif;
+$font-text: 'Open Sans', sans-serif;
 
 // breakpoints
+$mobile-size:  320px;
 $tablet-size:  768px;
 $desktop-size: 990px;
 
-// grid
-$max-container-width: 990px;
-$columns: 12;
-$column-base-width: 100% / $columns;
-$gutter-width: 24px;
+// // grid
+// $max-container-width: 990px;
+// $columns: 12;
+// $column-base-width: 100% / $columns;
+// $gutter-width: 24px;

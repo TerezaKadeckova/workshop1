@@ -1,4 +1,10 @@
 // responsive mixins
+
+@mixin mobile {
+    @media (min-width: $mobile-size) {
+        @content;
+    }
+}
 @mixin tablet {
 	@media (min-width: $tablet-size) {
 		@content;
